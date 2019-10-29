@@ -1,8 +1,9 @@
 {
-  "name": "strapi-upload-qiniu",
-  "version": "3.0.0-alpha.12.1.3",
+  "name": "strapi-provider-upload-qiniu",
+  "version": "1.0.0",
   "description": "Qiniu provider for strapi upload",
   "keywords": [
+    "strapi-provider",
     "upload",
     "qiniu",
     "strapi"
@@ -12,17 +13,17 @@
   },
   "main": "./lib",
   "dependencies": {
-    "qiniu": "^7.1.3"
+    "qiniu": "^7.2.2"
   },
   "strapi": {
     "isProvider": true
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/zhuang17/strapi-upload-qiniu.git"
+    "url": "git://github.com/mozillo/strapi-provider-upload-qiniu.git"
   },
   "bugs": {
-    "url": "https://github.com/zhuang17/strapi-upload-qiniu/issues"
+    "url": "https://github.com/mozillo/strapi-provider-upload-qiniu/issues"
   },
   "engines": {
     "node": ">= 9.0.0",
